@@ -2,6 +2,7 @@ import { useState } from "react";
 import LandingPage from "./component/LandingPage";
 import ChangeType from "./component/ChangeType";
 import DashBoard from "./component/DashBoard";
+import "leaflet/dist/leaflet.css";
 function App() {
   const [istype, setUserType] = useState(() =>
     localStorage.getItem("userType")
