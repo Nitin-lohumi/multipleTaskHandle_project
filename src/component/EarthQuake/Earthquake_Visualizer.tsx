@@ -70,7 +70,7 @@ const EarthquakeVisualizer: React.FC = () => {
       <MapContainer
         center={center as L.LatLngExpression}
         zoom={2}
-        style={{ height: "60vh", width: "100%" }}
+        style={{ height: "60vh", width: "100%", zIndex: 0 }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'

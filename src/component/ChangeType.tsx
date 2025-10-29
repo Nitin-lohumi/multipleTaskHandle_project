@@ -4,7 +4,7 @@ import LandingPage from "./LandingPage";
 function ChangeType({ setUser }: { setUser: (val: string) => void }) {
   const [isTypeChange, setIsTypeChange] = useState<boolean>(false);
   return (
-    <div className="z-30">
+    <div className="z-100">
       <div className="flex justify-end p-2">
         <button
           onClick={() => setIsTypeChange((prev) => !prev)}
